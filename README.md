@@ -1,5 +1,6 @@
 <include a CircleCI status badge, here>
 https://app.circleci.com/pipelines/github/dtnyk/project-ml-microservice-kubernetes 
+[![CircleCI](https://circleci.com/gh/dtnyk/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://circleci.com/gh/dtnyk/project-ml-microservice-kubernetes/tree/main)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
