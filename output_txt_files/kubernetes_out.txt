@@ -1,4 +1,5 @@
 <paste log output from Kubernetes-mediated prediction, here>
+# INITIAL RUN
 (.devops) imac@imac project-ml-microservice-kubernetes % ./run_kubernetes.sh 
 pod/ml-api created
 NAME                         READY   STATUS    RESTARTS   AGE
@@ -6,6 +7,7 @@ hello-k8s-75d8c7c996-zqg7k   1/1     Running   3          217d
 ml-api                       0/1     Pending   0          1s
 error: unable to forward port because pod is not running. Current status=Pending
 
+# SECOND RUN
 (.devops) imac@imac project-ml-microservice-kubernetes % ./run_kubernetes.sh   
 NAME                         READY   STATUS    RESTARTS   AGE
 hello-k8s-75d8c7c996-zqg7k   1/1     Running   3          217d
@@ -16,7 +18,7 @@ Handling connection for 8080
 Handling connection for 8080
 
 
-
+# PREDICTION LOG OUTPUT
 imac@imac project-ml-microservice-kubernetes % kubectl logs ml-api
  * Serving Flask app 'app' (lazy loading)
  * Environment: production
