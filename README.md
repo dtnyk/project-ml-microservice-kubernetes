@@ -1,4 +1,7 @@
 <include a CircleCI status badge, here>
+<<<<<<< HEAD
+
+=======
 
 ## Project Overview
 
